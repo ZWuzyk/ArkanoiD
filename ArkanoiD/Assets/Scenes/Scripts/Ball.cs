@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Ball : MonoBehaviour {
+    
 
     [SerializeField] Paddle paddle1;
 
@@ -11,6 +12,7 @@ public class Ball : MonoBehaviour {
 	// Use this for initialization
 	private void Start () {
 
+   
         paddleToBallVector = transform.position - paddle1.transform.position;
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         rb.simulated = false;
