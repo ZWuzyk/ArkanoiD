@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4180465378505638}
   - component: {fileID: 212741272364953576}
   - component: {fileID: 60275819148512702}
-  - component: {fileID: 114851411729487650}
+  - component: {fileID: 114513297726472016}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Untagged
@@ -72,7 +72,7 @@ PolygonCollider2D:
       - {x: 1.0030394, y: -0.0013596416}
       - {x: -0.9927077, y: 0.011842638}
       - {x: -0.99698305, y: 0.28115082}
---- !u!114 &114851411729487650
+--- !u!114 &114513297726472016
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -80,10 +80,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1793311424961426}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14dd7d98269b9e441866cf34c7987c65, type: 3}
+  m_Script: {fileID: 11500000, guid: e18a141c11f31d04c97a3387ef979646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  screenWidthInUnits: 16
+  minX: 1
+  maxX: 15
 --- !u!212 &212741272364953576
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -119,7 +121,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 096de7685dc6a6f43919d298d1bcb7b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: da0d5561978be114dab1c80ff8efadca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
