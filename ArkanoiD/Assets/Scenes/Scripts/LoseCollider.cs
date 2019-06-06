@@ -7,7 +7,7 @@ public class LoseCollider : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Application.LoadLevel("GameOver");
+        Application.LoadLevel("Retry");
     }
 
 }
